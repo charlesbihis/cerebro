@@ -63,7 +63,7 @@
           &trans  &trans  &trans         &trans         &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans   &trans  &kp F12
           &trans  &trans  &trans         &trans         &trans  &trans            &trans  &trans   &mo 3   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
           &trans  &trans  &trans         &trans         &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans  &trans   &trans   &trans
- &kp LC(LA(TAB))  &trans  &trans  &kp LC(PG_UP)  &kp LC(PG_UP)                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+ &kp LC(LA(TAB))  &trans  &trans  &kp LC(PG_UP)  &kp LC(PG_DN)                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
