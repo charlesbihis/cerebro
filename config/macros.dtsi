@@ -1,0 +1,12 @@
+macro_vscode_go_right: macro_vscode_go_right{
+compatible = "zmk,behavior-macro";
+label = "macro_vscode_go_right";
+#binding-cells = <0>;
+bindings = <&kp LG(K)>, <&kp LC(LG(RIGHT))>;
+};
+macro_vscode_go_left: macro_vscode_go_left{
+compatible = "zmk,behavior-macro";
+label = "macro_vscode_go_left";
+#binding-cells = <0>;
+bindings = <&kp LG(K)>, <&kp LC(LG(LEFT))>;
+};
