@@ -57,7 +57,7 @@
             >;
         };
 
-        layer_mac_base {
+        layer_mac_keypad__blue_ {
             bindings = <
  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
@@ -67,9 +67,9 @@
             >;
         };
 
-        layer_mod {
+        layer_win_keypad__green_ {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                                  &trans   &none       &none            &none       &none       &none   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &to 8                                                                                   &to 9   &none       &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none         &none                       &bootloader                                                                             &bootloader   &none       &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5       &none  &bt BT_CLR                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none       &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none         &none                                                     &none                       &none                                       &none       &none            &none       &none       &none   &none
@@ -77,7 +77,7 @@
             >;
         };
 
-        layer_win_keypad {
+        layer_nothing__red_ {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans             &to 8                                                   &to 9  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -87,7 +87,7 @@
             >;
         };
 
-        layer_win_function {
+        layer_mac_fn__purple_ {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -97,7 +97,7 @@
             >;
         };
 
-        layer_mac_keypad {
+        layer_nothing__aquamarine_ {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -107,7 +107,7 @@
             >;
         };
 
-        layer_mac_function {
+        layer_mod__yellow_ {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -117,23 +117,23 @@
             >;
         };
 
-        layer_Layer__8 {
+        layer_win_base {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans         &mo 3                   &mo 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &kp LEFT_WIN                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans        &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans         &mo 3                          &mo 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &kp LEFT_WIN                  &kp RIGHT_WIN                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans        &trans                         &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        layer_Layer__9 {
+        layer_mac_base {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans         &mo 2                          &mo 5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                  &trans                         &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &kp LEFT_GUI                  &kp RIGHT_GUI  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
