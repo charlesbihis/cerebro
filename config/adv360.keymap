@@ -49,7 +49,7 @@
 
         layer_win_fn__gray_ {
             bindings = <
- &kp EQUAL      &mo 1     &mo 2     &mo 3      &mo 4   &mo 5              &trans                                                                 &mo 3   &mo 6      &mo 7      &mo 8       &mo 9  &kp KP_MULTIPLY  &kp MINUS
+ &kp EQUAL      &mo 1     &mo 2     &mo 3      &mo 4   &mo 5              &tog 8                                                                &tog 9   &mo 6      &mo 7      &mo 8       &mo 9  &kp KP_MULTIPLY  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y  &kp KP_N7  &kp KP_N8   &kp KP_N9     &kp KP_MINUS   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H  &kp KP_N4  &kp KP_N5   &kp KP_N6      &kp KP_PLUS    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N  &kp KP_N1  &kp KP_N2   &kp KP_N3     &kp KP_ENTER  &kp RSHFT
@@ -59,7 +59,7 @@
 
         layer_mac_keypad__blue_ {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6             &to 8                                                   &to 9  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 8                                                  &tog 9  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
@@ -69,7 +69,7 @@
 
         layer_win_keypad__green_ {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &to 8                                                                                   &to 9   &none       &none            &none       &none       &none   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &tog 8                                                                                  &tog 9   &none       &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none         &none                       &bootloader                                                                             &bootloader   &none       &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5       &none  &bt BT_CLR                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none       &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none         &none                                                     &none                       &none                                       &none       &none            &none       &none       &none   &none
@@ -79,7 +79,7 @@
 
         layer_nothing__red_ {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans             &to 8                                                   &to 9  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &tog 8                                                  &tog 9  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -89,7 +89,7 @@
 
         layer_mac_fn__purple_ {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans             &to 8                                                   &to 9  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &tog 8                                                  &tog 9  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
